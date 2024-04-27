@@ -1,6 +1,6 @@
 {
   "architectures": [
-    "RobertaForMaskedLM"
+    "XLMRobertaForMaskedLM"
   ],
   "attention_probs_dropout_prob": 0.1,
   "hidden_act": "gelu",
