@@ -23,5 +23,5 @@
   "text_encoder_layers": 6,
   "fusion_layers": 6,
   "text_decode_layers": 12,
-  "stride_layer": 3
+  "stride_layer": 6
 }
