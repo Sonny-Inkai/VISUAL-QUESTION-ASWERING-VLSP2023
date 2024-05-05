@@ -70,8 +70,8 @@ class TextGenerator(object):
         #self.generator = self.model.generator
         self.vocab = vocab
         self.symbols = symbols
-        self.start_token = 0 #['[PAD]']
-        self.end_token = 2  #'[PAD]']
+        self.start_token = 101 #['[PAD]']
+        self.end_token = 102  #'[PAD]']
 
         self.global_scorer = global_scorer
         self.beam_size = args['beam_size']
